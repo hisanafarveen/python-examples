@@ -1,3 +1,4 @@
+
 data=input("enter a value or 0 for quit")
 while data!='0':
     if data=='8':
@@ -69,16 +70,7 @@ while index<len(data):
     print(data[index])
     index+=1       
 
-data=range(1,101)
-index=0
-while index<len(data):
-    if data[index]in range(50,61):
-        index+=1
-        continue
-    if data[index]==81:
-        break
-    print(data[index])
-    index+=1       
+    
         
         
     
