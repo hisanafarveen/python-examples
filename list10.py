@@ -57,4 +57,63 @@ for value in range(1,31):
         print(value,value**2)
 list5        
 
+def sum1(a=0,b=0):
+    return a+b
 
+sum1(12,34)
+
+def sum2(*args):
+    print(args)
+    return sum(args)
+sum2(12,23,67,89)
+
+
+def sum2(*args):
+    print(args)
+    sum=0
+    for value in args:
+        sum=sum+value
+    return sum
+
+sum2(12,23,12,78)
+
+def sum4(*args):
+    print(args)
+    return sum(args)
+sum4(34,67,80,23)
+
+list5=[]
+list6=["HISANA","SAFA","SANA","muhammed"]
+for value in list6:
+    if value.islower():
+        print(value)
+             
+    
+
+tuple6=("HISANA","SAFA","SANA","muhammed")
+def lowercase(*tuple6):
+    for value in tuple6:
+        if value.isupper():
+            print(value)
+
+
+lowercase("HISANA","SAFA","SANA","muhammed","PRADEEP")
+
+def sum4(*isupper):
+    print(isupper)
+    return sum(isupper)
+sum4(tuple6)
+
+list12=["yahiya","MANU","febina","SAFNA"]
+
+def lowercase(*list12):
+    upperlist=[]
+    lowerlist=[]
+    for value in list12:
+        if value.isupper():
+            upperlist.append(value)
+        else:
+            lowerlist.append(value) 
+    return upperlist,lowerlist
+             
+lowercase("yahiya","MANU","febina","SAFNA")
