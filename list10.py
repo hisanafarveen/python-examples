@@ -117,3 +117,55 @@ def lowercase(*list12):
     return upperlist,lowerlist
              
 lowercase("yahiya","MANU","febina","SAFNA")
+
+l10=[45,-2,458,64,5,-1,0.11,47.8,47.3]
+def  largest(abc):
+    max=1
+    for value in abc:
+        if value>max:
+            max=value
+        else:
+            pass
+    print(max) 
+largest(l10)    
+l10=[45,-2,458,64,5,-1,0.11,47.8,47.3]
+def smallest(abc):
+    min=-1
+    for value in abc:
+        if value<min:
+            min=value
+        else:
+            pass
+    print(min)
+smallest(l10)
+  
+l10=[45,-2,458,64,5,-1,0.11,47.8,47.3]   
+def count(abc):
+    count=0
+    for value in abc:
+            if value >-1000:
+                count=count+1
+    print(count)            
+count(l10)   
+
+
+l10=[45,-2,458,64,5,-1,0.11,47.8,47.3]
+even=0
+odd=0
+for value in l10:
+    if value%2==0:
+        even+=1
+    else:
+        odd+=1    
+print (" even number",even)
+print("odd number",odd)  
+
+        
+
+          
+                
+                
+                
+    
+
+         
